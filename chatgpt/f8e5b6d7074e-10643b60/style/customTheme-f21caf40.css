@@ -21,16 +21,3 @@
     display: inline-block;
     vertical-align: text-top;
 }
-
-.icon-object {
-    display: none;
-}
-
-.cxd-Remark-icon::before {
-    content: '?';
-}
-
-body {
-    padding: 0;
-    margin: 0;
-}
