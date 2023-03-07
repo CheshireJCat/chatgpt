@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jssdk Page</title>
+</head>
+
+<style>
+  #root,
+  html,
+  body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+</style>
+
+<body>
+  <script src="/loader-411473a2.js"></script>
+
+  <div id="root"></div>
+  <!--amis 将渲染到这个div-->
+  <script>
+    amisLoader.load('/f8e5b6d7074e-10643b60/MDE4qrdZLm-87453fba.js', ((page) => {
+      const data = { key: "value" };
+      /**
+       * 挂载页面到指定节点
+       *
+       * @param selector ID 选择器
+       * @param schema 页面 schema，非必须
+       * @param props 数据，非必须
+       * @param env 环境，非必须
+       */
+      page.mount("#root", page.schema, data);
+      // page.unmount("#root"); 卸载页面
+    }));
+  </script>
+</body>
+
+</html>
